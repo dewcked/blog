@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "description": "Static site made with vuepress",
+  "main": "index.js",
+  "authors": {
+    "name": "dewcked",
+    "email": "dewcked@protonmail.ch"
+  },
+  "repository": "https://github.com/dewcked/blog",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
