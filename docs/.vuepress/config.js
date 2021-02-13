@@ -1,6 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
+  
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -24,7 +25,7 @@ module.exports = {
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
+   * ref：htps://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
     repo: '',
@@ -65,7 +66,9 @@ module.exports = {
    */
   plugins: [
     '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
+    '@vuepress/medium-zoom',
+    '@vuepress/last-updated'//,
+    //["sitemap", { hostname: "https://dewcked.github.io/blog/" }]
   ],
   base: "/blog/"
 }
