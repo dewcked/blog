@@ -43,6 +43,10 @@ module.exports = {
         link: '/config/'
       },
       {
+        text: 'Study_Vue',
+        link: '/study_vue/'
+      },
+      {
         text: 'VuePress',
         link: 'https://v1.vuepress.vuejs.org'
       }
@@ -55,6 +59,17 @@ module.exports = {
           children: [
             '',
             'using-vue',
+          ]
+        }
+      ],
+      '/study_vue/': [
+        {
+          title: 'Study Vue',
+          collapsable: false,
+          children: [
+            '',
+            'stage_1',
+            'stage_2',
           ]
         }
       ],
