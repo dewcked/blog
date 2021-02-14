@@ -1,7 +1,7 @@
 git pull
 git add -A
 git commit -m "dev commit"
-git push origin master
+git push blog master
 
 npm run docs:build
 cd docs/.vuepress/dist
