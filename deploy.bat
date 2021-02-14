@@ -12,4 +12,4 @@ git commit -m "deploy with vuepress"
 
 git push -f git@github.com:dewcked/blog.git master:gh-pages
 
-cd -
+cd C:\Users\USER-\Vue\VuePressBlog\docs
