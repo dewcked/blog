@@ -1,6 +1,6 @@
 {
   "name": "svelte-blog",
-  "version": "1.0.01",
+  "version": "1.0.02",
   "private": true,
   "scripts": {
     "build": "rollup -c",
